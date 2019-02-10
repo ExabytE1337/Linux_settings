@@ -21,6 +21,7 @@ Apps from APT:
 * pychess
 * qBittorent
 * TeXStudio
+* Texlive-full
 * Rhytmbox
 * Spotify
 * VLC
