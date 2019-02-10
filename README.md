@@ -9,7 +9,7 @@ Paper icon theme from https://github.com/snwh/paper-icon-theme
 
 Configure non-system disks to automount.
 
-Configure timeshift.
+Configure timeshift don't include documents and files.
 
 Apps from APT:
 * atom
