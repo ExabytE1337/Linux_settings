@@ -27,6 +27,7 @@ Apps from APT:
 * VLC
 
 Get NVIDIA proprietary drivers.
+Still need to figure out how to actually make it run on startup but `nvidia-settings --assign GPULogoBrightness=0` turn off the gpu led's.
 
 # Atom and packages needed for Markdown, etc.
 One Dark theme and syntax works best for mutliple languages.
