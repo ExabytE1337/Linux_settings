@@ -26,7 +26,7 @@ Apps from APT:
 * Spotify
 * VLC
 
-Get NVIDIA proprietary drivers.
+Get NVIDIA proprietary drivers. Add the ppa to get the newest one. Don't install the binary ones, just the metapackage.
 Still need to figure out how to actually make it run on startup but `nvidia-settings --assign GPULogoBrightness=0` turn off the gpu led's.
 
 # Atom and packages needed for Markdown, etc.
@@ -40,13 +40,9 @@ Packages:
 * language-markdown
 * language-matlab
 * markdown-pdf
-* markdown-scroll-sync
 * markdown-table-editor
 * markdown-writer
-
-Themes: - right now they don't work for markdown
-* dracula-syntax
-* dracula-ui
+* markdown-preview-enhanced(disable the original markdown-preview)
 
 
 # R, RStudio and packages
@@ -62,6 +58,9 @@ Then run ```sudo apt-get update sudo apt-get install r-base``` and ```sudo apt-g
 
 Install tidyverse by first installing
 ```sudo apt install libcurl4-openssl-dev libssl-dev libxml2-dev```.
+
+Add the atom.rstheme to RStudio. Preferably to Rstudio/resources/themes.
+This will import the One Dark theme. Use the one that is in this repository. I changed the .ace_operator to make it distinguishable from other functions.
 
 # CLI based software
 
