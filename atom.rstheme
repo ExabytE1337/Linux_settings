@@ -69,7 +69,7 @@
 }
 
 .ace_keyword.ace_operator {
-  color: #abb2bf
+  color: #eddc96
 }
 
 .ace_constant.ace_character,
