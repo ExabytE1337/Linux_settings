@@ -12,19 +12,19 @@ Configure non-system disks to automount.
 Configure timeshift don't include documents and files.
 
 Apps from APT:
-* atom
-* redshift
-* calibre
-* gpick
-* libreoffice
-* inkscape
-* pychess
-* qBittorent
-* TeXStudio
-* Texlive-full
-* Rhytmbox
-* Spotify
-* VLC
+*  atom
+*  redshift
+*  calibre
+*  gpick
+*  libreoffice
+*  inkscape
+*  pychess
+*  qBittorent
+*  TeXStudio
+*  Texlive-full
+*  Rhytmbox
+*  Spotify
+*  VLC
 
 Get NVIDIA proprietary drivers. Add the ppa to get the newest one. Don't install the binary ones, just the metapackage.
 Still need to figure out how to actually make it run on startup but `nvidia-settings --assign GPULogoBrightness=0` turn off the gpu led's.
@@ -38,12 +38,12 @@ Packages:
 * atom-language-r
 * document-outline
 * language-markdown
-* language-matlab
 * markdown-pdf
 * markdown-table-editor
 * markdown-writer
 * markdown-preview-enhanced(disable the original markdown-preview)
-
+* language-matlab
+* pigment
 
 # R, RStudio and packages
 Get RStudio from [stable](https://www.rstudio.com/products/rstudio/download/#download) or a preview from [preview](https://www.rstudio.com/products/rstudio/download/preview/)
