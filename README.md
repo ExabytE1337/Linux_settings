@@ -47,6 +47,8 @@ Packages:
 
 # R, RStudio and packages
 Get RStudio from [stable](https://www.rstudio.com/products/rstudio/download/#download) or a preview from [preview](https://www.rstudio.com/products/rstudio/download/preview/)
+# RStudio custom theme
+get it here [atom_theme_custom](https://github.com/ExabytE1337/Linux_settings/blob/master/atom.rstheme)
 
 ## Uninstall RStudio - to reinstall it ofcourse
 sudo apt-get remove rstudio
