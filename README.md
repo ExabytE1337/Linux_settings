@@ -1,11 +1,11 @@
 # My Linux Settings
-Get linux mint from https://www.linuxmint.com/download.php
+Get linux mint from [mint](https://www.linuxmint.com/download.php)
 
-Make a bootable usb i.e. with Rufus https://rufus.ie/
+Make a bootable usb i.e. with Rufus [rufus](https://rufus.ie/)
 
-Theme vimix-dark from https://github.com/vinceliuice/vimix-gtk-themes
+Theme vimix-dark from [vimix](https://github.com/vinceliuice/vimix-gtk-themes)
 
-Paper icon theme from https://github.com/snwh/paper-icon-theme
+Paper icon theme from [paper](https://github.com/snwh/paper-icon-theme)
 
 Configure non-system disks to automount.
 
@@ -52,7 +52,7 @@ Get RStudio from [stable](https://www.rstudio.com/products/rstudio/download/#dow
 sudo apt-get remove rstudio
 
 Get the newest R-language from
-https://cran.r-project.org/
+[cran](https://cran.r-project.org/)
 for mint 19.1 it was by adding
 ``` deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/``` to your /etc/apt/sources.list file.
 Maybe you will need to run
@@ -67,7 +67,7 @@ This will import the One Dark theme. Use the one that is in this repository. I c
 
 # CLI based software
 
-Install neofetch by running ```sudo apt install neofetch```. Source is on https://github.com/dylanaraps/neofetch/wiki/Installation.
+Install neofetch by running ```sudo apt install neofetch```. Source is on [neofetch](https://github.com/dylanaraps/neofetch/wiki/Installation).
 
 Install cmatrix by running ```sudo apt-get install cmatrix```.
 Use ctrl+c to exit matrix.
