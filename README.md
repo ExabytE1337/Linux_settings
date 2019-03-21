@@ -46,7 +46,10 @@ Packages:
 
 
 # R, RStudio and packages
-Get RStudio from https://www.rstudio.com/products/rstudio/download/#download
+Get RStudio from [stable](https://www.rstudio.com/products/rstudio/download/#download) or a preview from [preview](https://www.rstudio.com/products/rstudio/download/preview/)
+
+## Uninstall RStudio - to reinstall it ofcourse
+sudo apt-get remove rstudio
 
 Get the newest R-language from
 https://cran.r-project.org/
