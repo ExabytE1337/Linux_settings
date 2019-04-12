@@ -1,4 +1,5 @@
 # My Linux Settings
+
 Get linux mint from [mint](https://www.linuxmint.com/download.php)
 
 Make a bootable usb i.e. with Rufus [rufus](https://rufus.ie/)
@@ -30,6 +31,7 @@ Get NVIDIA proprietary drivers. Add the ppa to get the newest one. Don't install
 Still need to figure out how to actually make it run on startup but `nvidia-settings --assign GPULogoBrightness=0` turn off the gpu led's.
 
 # Atom and packages needed for Markdown, etc.
+
 One Dark theme and syntax works best for mutliple languages.
 
 Packages:
@@ -46,20 +48,29 @@ Packages:
 * pigment
 
 # R, RStudio and packages
+
 Get RStudio from [stable](https://www.rstudio.com/products/rstudio/download/#download) or a preview from [preview](https://www.rstudio.com/products/rstudio/download/preview/)
+
 # RStudio custom theme
+
 get it here [atom_theme_custom](https://github.com/ExabytE1337/Linux_settings/blob/master/atom.rstheme)
+
 # RMarkdown custom theme
+
 Combine the file markdown.css, atom_one_dark.css to one css that will be used inside the document.
 Use highlight: zenburn to get the code highlight working for now. We will have to dig a bit deeper to adjust the colors of functions and words the same as used in the atom_one_dark.css.
-Highligth the table-stripped from kableExtra with adjusting this
 
-```css
-.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-   background-color: red;
-}
-```
+**Easy to incorporate into RMarkdown just use YAML**
+---
+title: "Sample title"
+output:
+  html_document:
+    df_print: paged
+    css: one_dark_simple.css
+---
+
 ## Uninstall RStudio - to reinstall it ofcourse
+
 sudo apt-get remove rstudio
 
 Get the newest R-language from
