@@ -1,0 +1,12 @@
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #32363d;
+}
+
+ html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    color:#abb2bf;
+    background-color:#282c34;
+    overflow:initial;
+    box-sizing:border-box;
+    word-wrap:break-word}
