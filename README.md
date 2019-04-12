@@ -61,6 +61,8 @@ Combine the file markdown.css, atom_one_dark.css to one css that will be used in
 Use highlight: zenburn to get the code highlight working for now. We will have to dig a bit deeper to adjust the colors of functions and words the same as used in the atom_one_dark.css.
 
 **Easy to incorporate into RMarkdown just use YAML**
+
+```r
 ---
 title: "Sample title"
 output:
@@ -68,6 +70,7 @@ output:
     df_print: paged
     css: one_dark_simple.css
 ---
+```
 
 ## Uninstall RStudio - to reinstall it ofcourse
 
