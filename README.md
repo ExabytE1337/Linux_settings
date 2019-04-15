@@ -1,3 +1,4 @@
+http://www.incien.sk/wp-content/uploads/2018/12/Waste-for-Dummies_BA.pdf
 # My Linux Settings
 
 Get linux mint from [mint](https://www.linuxmint.com/download.php)
