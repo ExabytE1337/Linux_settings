@@ -73,6 +73,25 @@ output:
     css: one_dark_simple.css
 ---
 ```
+## Docker settings for importing theme and user-settings for Rstudio
+
+```
+if [ -f user-settings ]; then
+    mkdir -p /home/ubuntu/.rstudio/monitored/user-settings/
+    mkdir -p /home/ubuntu/.R/rstudio/themes
+    cp user-settings /home/ubuntu/.rstudio/monitored/user-settings
+    cp atom.rstheme /home/ubuntu/.R/rstudio/themes
+    cp nord_one.rstheme /home/ubuntu/.R/rstudio/themes
+    sed -i.bak '/initialWorkingDirectory=/d' /home/ubuntu/.rstudio/monitored/user-settings/user-settings
+    chown -R ubuntu:ubuntu /home/ubuntu/.rstudio
+    if [ -f .domino/launch-rstudio-server ]; then
+        sed -i.bak 's# > .rstudio/monitored/user-settings/user-settings# >> ~/.rstudio/monitored/user-settings/user-settings#' .domino/launch-rstudio-server
+        chown ubuntu:ubuntu .domino/launch-rstudio-server
+    fi
+fi
+```
+
+
 
 ## Uninstall RStudio - to reinstall it ofcourse
 
